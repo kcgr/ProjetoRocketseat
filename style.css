@@ -31,7 +31,7 @@ body * {
   color: var(--text-color);
 }
 body {
-  background: var(--bg-url) no-repeat top center/cover;
+  background: var(--bg-url) no-repeat top center;
   height: 100vh;
 }
 #container {
