@@ -76,8 +76,9 @@ body {
   animation: slide-back 0.2s;
 }
 #switch button:hover {
-  border: 8px solid var(--switch-highlight-color);
-  box-shadow: 0px 0px 8px 0.81px var(--switch-stroke-color);
+  /* border: 8px solid var(--switch-highlight-color);
+  box-shadow: 0px 0px 8px 0.81px var(--switch-stroke-color); */
+  outline: 8px solid var(--switch-highlight-color);
 }
 .light #switch button {
   animation: slide-in 0.2s forwards;
